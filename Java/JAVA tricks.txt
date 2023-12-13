@@ -1,0 +1,39 @@
+
+Get Random name & Random grade:
+
+	private String getRandomName() {
+		String[] names = {"Georgi", "Sonia", "Petar", "Krisi", "Violeta", "Chavdar", "Ivan"};
+		return names[new Random().nextInt(names.length)];
+	}
+	
+	private int getRandomPercentage() {
+		return nre Random.nextInt(101);
+	}
+	-----------------------------------------
+	psvm {
+		Student[] students = new Student[10];
+		
+		for (int i = 0; i < students.length; i++) {
+			students[i].name = getRandomName();
+			students[i].gradeInPercentage = getRandomPercentage();
+		}
+	}
+	
+	
+Единствения начин да накараме метод да върне две стойности е ако направим клас, който има две полета и направим обект от този клас, а метода да връща обекта. Такъв клас би бил статичен.
+
+
+Avoid GOTO  at all cost. Not maintainable! Създава повече проблеми, отколкото решава.
+
+J A V A   R E F L E C T I O N :
+
+Code Engineering - писане на код, който пише код
+С Java Reflection мога да счупя капсулацията - да итерирам всички конструктори на един клас (без значение кой е private и кой не), всички променливи или всичките му методи; да ги видя кой какъв е; да ги скрия;
+да ги пусна; да генерирам нов конструктор.
+
+CLASS LOADER
+Когато пусна програмата, се стартира т.нар. Class Loader, който зарежда всички класове. Там са описани кой конструктор какъв е, кой е private, какви методи имам, кои мога да ползвам.
+Class Loader-а зарежда тези класове като обекти.
+Всяка програма си има стандартен Class Loader (да гугълна как се всима Class Loader).
+Мога да си направя нов Class Loader, който да се ползва вместо стандартния.
+
