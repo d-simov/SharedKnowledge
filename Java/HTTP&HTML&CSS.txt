@@ -1,0 +1,121 @@
+
+H T T P :
+HTTP 		- Hyper Text Transfer Protocol - текстов протокол за комуникация между компютри
+			
+			FrontEnd   <--->  HTTP  <--->   BackEnd
+			
+			HTTP  	изпраща данните в чист вид (не ги криптира)
+			HTTPS 	изпраща данните в криптиран вид, който може да се разчете само от сървъра, но не и от някой, който прихваща сигнала по средата.
+
+HTTP PROTOCOL - Client side (browser)
+	TCP protocol
+		IP protocol
+			Ethernet
+				Wires, WiFi
+			Ethernet
+		IP protocol
+	TCP protocol
+HTTP PROTOCOL = Server side (server)
+
+
+HTTP DEVELOPER TOOLS
+	Има ги във всеки браузър:
+		Rightclick - inspect
+			ИЛИ
+		Rightclick - Developer Tools
+
+HTML FORMS
+	Способ за изпращане на информация към сървъра.
+	HTTP defines methods to indicate the desired action to be performed on the identified resource:
+		- GET	- взима данни. Можем да изпращаме данни с GET - като поставим филтър, по който да вземем данни (всяка търсачка - Google или вътрешна в сайт). По този начин ключа (думата) за търсене се изписва в URL.
+				Когато кликна върху бутон, правя GET заявка без параметри. Когато търся нещо, напр. "Simov", правя GET заявка с параметър "Simov", прилагам GET метода с параметър.
+		- POST	- когато напиша нещо във формите, данните не излизат в URL-а, а направо в HTTP request-a. Ползва се при въвеждане на чувствителна информация.
+	Основната разлика между GET и POST е начина, по който изпращаме данни към сървъра.
+	
+	Когато видя неразбираем URL, той вероятно е encode-нат от кирилица. Мога да отваря online URL decoder и ще получа въведеното търсене, генерирало този URL.
+
+HTTP REQUEST
+HTTP METHODS:
+	- GET		- retrieve a resource						GET spaceBar resource path spaceBar HTTP version, отдолу известен брой хедъри и празен ред		GET users/Tech-Modules/repos HTTP/1.1
+	- POST		- create/store a resource					структурата е като при GET заявката, но данните не попадат в URL-а и не се виждат в браузъра, а попадат под хедърите, отделени с празен ред.
+	- PUT		- update (replace) a resource
+	- DELETE	- delete (remove) a resource
+	- PATCH		- update resource particially (modify)
+	- HEAD		- retrieve a resource headers
+
+HTTP RESPPONSE
+Отговора на сървъра. Състои се от няколко реда:
+
+HTTP response status codes:
+	100-199	- 	informational responces
+	200-299 - 	successful responces
+	300-399 - 	redirection messages
+	400-499 - 	client error responces
+	500-599 - 	server error responces
+
+
+HTTP 1.1 200 OK												- версия на HTTP и статус код
+няколко реда хедъри за име на сървъра, обем на отговора,...	- 
+празен ред
+
+
+URLs AND URL Structure
+
+Protocol://Host:Port/Path?QueryString#Fragment
+http://mySite.com:8080/demo/index.php?id=27&lang=en#lectuers
+	- Network protocol (ftp, http, https, ...) - http in most cases
+	- Host or IP address (softuni.org, gmail.com, 127.0.0.1, ...)
+	- Port (the default port is 80) - integer in range [0, 65535]
+	- Path (/forum или /path/index.php)
+	- Query String (?id=27&lang=en)
+	- Frangment (#slides) - vigates to a sector of the page.
+
+
+
+
+H T M L :
+
+HTML is a language that describes web content.
+HTML описва структурата на една уеб страница (web document) - text with formatting, images, lists, tables, hyperlinks, forms. etc...
+
+В HTML дефинирам отделните части на документа с тагове. <h1> some text here </h1> 			<h1>	- отварящ таг за заглавие
+
+HTML пренебрегва white space (tabs, new rows, space bars)
+В HTML винаги, когато искам нещо, създавам валиден таг от него. Мога да правя и вградени файлове. С таговете създаваме елементи на документа.
+
+Стандартно HTML има следната структура:
+<html>					- дефиницията на нашия документ;
+	<head>				
+	....
+	....				- данни, които uers-а не вижда
+	</head>
+	<body>
+	...
+	...					- нещата, които user-а вижда
+	...
+	</body>
+</html>
+
+Когато създам <title> таг в <head> тага, така си кръщавам името на таба на прозореца, в който е отворен документа.
+<html>					- дефиницията на нашия документ;
+	<head>				
+		<title> My first HTML
+	</head>
+	<body>
+	</body>
+</html>
+
+
+Т А Г О В Е    В   H T M L :
+
+<head></head>			- блок от данни, които потребителя не вижда, служебен текст и тагове, с които се дефинират видове шрифтове, информация на табове и друга служебна информация
+<body></body>			- блок от данни, които са в прозореца на html документа, който потребителя вижда
+<p></p>					- нов параграф, помества смислово обособени текстове
+<strong></strong>		- показва, че това е по-важна информация за съдържанието като удебелява текста (bold) - Гугъл бота търси и отчита тези неща.
+<em></em>				- показва, че това е по-важна информация за съдържанието като, накланя текста (italic)
+<h1></h1>				- указва заглавие - с по-голям шрифт, удебелено и пр.
+<h2></h2>				- указва подзаглавие - с по-голям (но не чак толкова) шрифт, удебелено и пр.
+.........
+<h6></h6>				- указва под-подзаглавие - с не чак толкова голям шрифт, удебелено и пр.
+
+
