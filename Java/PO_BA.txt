@@ -1,0 +1,86 @@
+
+PO in DreamIx - Cultural Interview:
+
+	Разгледах сайта Ви и с удоволствие забелязах, че сте извели нещата, 
+	които търсите у бъдещите си и настоящи служители.
+	Резонират с мен в много голяма степен.
+	
+	Следя развитието на фирмата Ви от много време. Години. Първоначално от изцяло
+	приятелски интерес.
+		- Видях Junior Java обявата. Нямах увереността,  защото не покривах всичко
+		- Сега виждам шанс да приложа на практика силни страни, които съм развивал
+
+	1. 	STRIVE FOR MASTERY:
+			- Захванах се да уча Java.
+			- В момента разглеждам HTML.
+			- събота посетих локална конференция на тема имплементация на AI в бизнеса. 
+			Поканих колкото се може повече познати да присъстват, защото тук не и
+			зобилства от meaningful събития.
+	2. Authonomy:
+			- когато съм в своята експертиза съм достатъчно автономен.
+			Засега, тъй като навлизам, ще съм благодарен на mentorship.
+			- чай Лукчета - the process
+			
+	3. 	PROACTIVENESS:
+			- Лукчета Sticks
+			- Билков чай Лукчета
+			- Herbs for Birds
+	4. 	TEAM PLAYER - WE USE "WE" MORE THAN "I":
+	
+	5. Strong body - Strong mind:	
+			- групи за планински разходки - до билото на СтПланина и обратно
+			- участвам в организаторския team на местната велообщност
+	4. 	HUMBLENESS - NO EGO:
+	
+	5. 	SHARING IS CARING:
+			- Водил съм отделни часове в класа на дъщеря ми.
+			- Чета книги в детската градина на сина ми - утре на Коледна тематика. 
+			Много ми се радват децата.
+			- Съпругата ми води тематични четения в детската библиотека
+	6. Meaningful projects:
+			- имам мнение по темата, но не е dealbraker.
+			- бих работил по всякакви проекти, които не компрометират вътрешната ми етика
+			и усещане за редно и нередно.
+	
+	7. Desire to CONNECT, BOND with the client, to TALK with him
+			- винаги съм търсил създаването и експлоатирането на нови сфери на бизнес
+			- стремя се да създам топла връзка с контакта отсреща, защото много по-лесно 
+			се работи с познат, отколкото с... възложител или изпълнител (според случая)
+	ХОБИТА
+			- ходене в планините
+			- събирания с приятели в особено големи мащаби
+				- срещи на фантастика - 50-80 души
+				- събиране на приятели за РД - 70-100 души. Към 3 месеца организация.
+	
+	
+		
+	
+	
+	
+	
+	Understand the concept of Epics and User Stories. Как се разбиват, кое какво значение има?
+	Understand Business requirements and put them into stories. Independently ather requirements with correct questions. Can prepare questions in written form, can facilitate requirements gathering sessions.
+	Събирането на requirements е особено важно. Как събирам requirement-и, какъв е моя собствен процес, как го правя в моите проекти. Can validate requirements with business stakeholders.
+	
+	Knows his product/component. Knows how his product/component interacts with other products/components.
+	Knows well the use cases and values which the product provides.
+	
+	
+	Ability to manipulate structured data. / Can extract/select data with basic commands / Can read database relationship diagrams
+	
+	SOFTWARE:
+	MS Office, Google Docs, Google Spreadsheets, 
+	Jira, SQL, Google Analytics
+	
+	PM:
+	J: Keep track on team progress; provide feedback on progress; SCRUM, Ask for estimates; present requirements; Can follow project plan as communicates, Supervise 1-3 Developers.
+	MID: Create plan for a sprint for 1 team; Coordinate dependint tasks by other teams; follow up on the dependencies; brake down, estimate and prioritize well his own work; Organize my backlog
+	Conflict resolving.
+	
+	
+	
+	
+	Top 10 въпроса за интервю за PO.
+	Top 10 въпроса за интервю за BA.
+	
+
