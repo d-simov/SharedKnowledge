@@ -69,6 +69,9 @@ Immutable array of chars.
 String text1 = "Dilyan"; 				- checks StringPool and probably saves some memory.
 String text2 = new String("Dilyan");	- ignores StringPool - прави се рядко, обикновено, когато се прави нов текст - резултат от друг текст.
 
+При четене от конзолата:
+	text = sc.next()			- чете въведения текст до първия delimeter (разделител). Ако въведа sc.next("Went the horse into the river"), в променливата text ще се запамети "Went".
+	text = sc.nextLine()		- чете до знака за нов ред (до първия Enter). Ако въведа sc.next("Went the horse into the river"), в text ще се запамети "Went the horse into the river".
 
 
 String Methods:
@@ -87,7 +90,7 @@ String Methods:
 	//	"My phone number is *** and yours is ***."
 		
 	.trim()						- премахва интервалите в началото и в края на даден низ. Не приема аргументи;
-	.strip()					- аналогично на .trim(), но............
+	.strip()					- аналогично на .trim(), но премахва и други символи, които в ASKII кода са преди символа за интервал.
 	.indexOf(substring)			- връща като int първата позиция, на която даден subsring или char се среща в основния низ; Ако не се среща, връща стойност -1;
 	.lastIndexOf()				- връща като int последната позиция, на която доден subsring или char се среща в основния низ; Ако не се среща, връща стойност -1;
 	.toUpperCase()				- връща нов низ, в който всички букви от оригиналния са главни;

@@ -161,7 +161,7 @@ Ctrl + Ctrl				- run everything;
 
 Ctrl + Alt + V			- extract/introduce Variable;
 Ctrl + Alt + M			- extract/introduce Method;
-Ctrl + Alt + L			- format the current file to the project’s standards
+Ctrl + Alt + L			- format the current file to the project’s standards
 Ctrl + Alt + T 			- при маркиран текст, ми предлага да го вложи в условие, for или while цикъл и мн. др. to quickly wrap a code block in useful constructs, select it in the editor and press Ctrl+Alt+T 
 						(Code | Surround With). The list of available options or wrappers is context-sensitive and depends on the language
 Ctrl + Alt + Shift + T	- при позиционирането на курсора върху символ, отваря списъка с рефакторирания, които са приложими към настоящия контекст.
